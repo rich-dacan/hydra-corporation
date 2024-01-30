@@ -10,12 +10,14 @@ const Navbar = () => {
         <Image
           src="/media/image/hydra-logo.svg"
           alt="Hydra Corporation - Logotipo"
+          title="Hydra Corporation - Technology for the future"
           width={100}
           height={100}
         />
         <Image
           src="/media/image/hydra-grammar.svg"
           alt="Hydra Corporation"
+          title="Hydra Corporation"
           width={76}
           height={46}
         />

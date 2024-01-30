@@ -32,7 +32,8 @@ const SuperiorBanner: React.FC = () => {
       </Left>
       <Image
         src="/media/image/banner-image-effects-figma.png"
-        alt="Hydra Corporation"
+        alt="Hyper3.4vision -  Hydra Corporation"
+        title="Hyper3.4vision -  Hydra Corporation"
         width={500}
         height={500}
       />
