@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import { Button, NavbarContainer, TopicList } from "./style";
+import { NavbarContainer, TopicList } from "./style";
+import ButtonDefault from "@/components/atoms/Button";
 
 const Navbar = () => {
   return (
@@ -25,12 +26,12 @@ const Navbar = () => {
         <li>TECHNOLOGIES</li>
         <li>HOW TO</li>
         <li>
-          <Button>CONTACT US</Button>
+          <ButtonDefault>CONTACT US</ButtonDefault>
         </li>
         <li>
-          <Button inverted noBorder>
+          <ButtonDefault inverted noBorder>
             JOIN HYDRA
-          </Button>
+          </ButtonDefault>
         </li>
       </TopicList>
     </NavbarContainer>
